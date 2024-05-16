@@ -40,7 +40,7 @@ public class Animal {
     }
 
     public void toEat(String product) {
-        System.out.println(getName() + " is fed of" + product);
+        System.out.println(getName() + " is fed of " + product);
     }
 
     public void toSleep() {
