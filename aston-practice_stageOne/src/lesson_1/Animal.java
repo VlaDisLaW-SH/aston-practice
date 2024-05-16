@@ -11,6 +11,8 @@ public class Animal {
         this.weight = weight;
     }
 
+    public Animal() {}
+
     public String getName() {
         return this.name;
     }
