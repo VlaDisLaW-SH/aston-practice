@@ -1,0 +1,16 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>TimeServlet</servlet-name>
+        <servlet-class>lesson_10.task_10_1.xml.TimeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TimeServlet</servlet-name>
+        <url-pattern>/minsk</url-pattern>
+        <url-pattern>/washington</url-pattern>
+        <url-pattern>/beijing</url-pattern>
+    </servlet-mapping>
+</web-app>
